@@ -5,13 +5,7 @@ const boxen = require("boxen");
 const { bold, cyan } = require("chalk").default;
 
 const lines = [
-  bold("Eric Pan"),
-  "Front End Engineer at FutureAdvisor (BlackRock)",
-  "",
-  bold(" Twitter: ") + cyan("https://twitter.com/epan"),
-  bold("  GitHub: ") + cyan("https://github.com/epan"),
-  bold("LinkedIn: ") + cyan("https://linkedin.com/in/ericpan"),
-  bold("   Email: ") + cyan("reachEP@gmail.com")
+  bold("Slin")
 ];
 
 const message = lines.join("\n");
@@ -23,6 +17,9 @@ const styles = {
   padding: 1
 };
 
-const box = boxen(message, styles);
+let box = boxen(message, styles);
+box = boxen(box, styles);
+box = boxen(box, styles);
+box = boxen(box, styles);
 
 process.stdout.write(box + "\n");

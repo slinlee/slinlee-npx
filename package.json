@@ -1,14 +1,11 @@
 {
-  "name": "epan",
+  "name": "slinlee",
   "version": "1.0.0",
-  "description": "Eric Pan",
+  "description": "Slin Lee",
   "main": "./src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epan/epan.git"
+    "url": "git@github.com:slinlee/slinlee-npx.git"
   },
   "keywords": [
     "profile",
@@ -16,12 +13,15 @@
     "card",
     "identity"
   ],
-  "author": "Eric Pan",
+  "bin": {
+    "slinlee": "./src/index.js"
+  },
+  "author": "Slin Lee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/epan/epan/issues"
+    "url": "https://github.com/slinlee/slinlee-npx/issues"
   },
-  "homepage": "https://github.com/epan/epan#readme",
+  "homepage": "https://github.com/slinlee/slinlee-npx#readme",
   "dependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.1"
