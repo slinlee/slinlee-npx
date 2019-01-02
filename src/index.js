@@ -23,3 +23,5 @@ box = boxen(box, styles);
 box = boxen(box, styles);
 
 process.stdout.write(box + "\n");
+
+require("openurl").open("http://slinlee.com/now")

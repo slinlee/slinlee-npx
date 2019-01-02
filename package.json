@@ -24,6 +24,7 @@
   "homepage": "https://github.com/slinlee/slinlee-npx#readme",
   "dependencies": {
     "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "openurl": "^1.1.1"
   }
 }
